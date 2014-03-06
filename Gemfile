@@ -17,3 +17,8 @@ gem 'rails_12factor'
 
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 # gem 'jbuilder', '~> 1.2'
+#
+
+group :development do
+  gem 'pry'
+end
