@@ -1,6 +1,7 @@
 /* Grid
  *******/
 
+
 .container {
 }
 
@@ -12,9 +13,40 @@
   @include span-columns(8);
 }
 
+a {
+  text-decoration: none;
+}
 /* Typography
  *************/
 
+@font-face {
+  font-family: "Lato-Regular";
+  src: url("/Lato-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Merriweather-Regular";
+  src: url("/Merriweather-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Merriweather-Light";
+  src: url("/Merriweather-Light.ttf");
+}
+
+@font-face {
+  font-family: "Lato-Light";
+  src: url("/Lato-Light.ttf");
+}
+
+@font-face {
+  font-family: "Lato-Bold";
+  src: url("/Lato-Bold.ttf");
+}
 body {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  
+  font-family: "Merriweather-Regular", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  //font-family: "Lato-Regular", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  background: #FFFFFD;
+
 }
