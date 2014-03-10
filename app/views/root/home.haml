@@ -7,52 +7,98 @@
 
       %p The Open Loans project is powered by a growing dataset of over 50,000 student loans, accessible via a simple API. Easily research and visualize key data such as interest rates, loans per student, and defaults over time. Power new applications designed to help students make better decisions about how they pay for college.
 
-      %p.header-links= link_to 'See some examples', examples_path
-      %p.header-links= link_to 'Get In Touch', examples_path
+      %p.header-links= link_to 'Get In Touch', "mailto:hello@openloans.org"
   .audience.home-stripe
     .content-row
       %h2.content-heading WHO CAN USE THIS?
 
       .row
         .col-8
+          .image-wrapper 
+            =image_tag "computer.png"
           %h3.sub-title Developers
 
           %p Building a product to help educate students about loans? Use our data to power recommendations or provide information directly to students.
 
         .col-8
+          .image-wrapper 
+            =image_tag "document.png" 
           %h3.sub-title Financial aid offices
 
           %p Use Open Loans data to better advise students dealing with student loans. Compare your internal metrics to similar schools or student cohorts.
 
         .col-8
+          .image-wrapper 
+            =image_tag "book.png" 
           %h3.sub-title Researchers
 
           %p Open Loans data can be a powerful tool for ongoing research. Or, discover interesting new problems to investigate with our easy to visualize data sets.
 
   .contributors.home-stripe
     .content-row
-      %h2 You can help
+      %h2.content-heading WHO CAN CONTRIBUTE?
 
       .row
         .col-8
-          %h3 Companies
+          .image-wrapper
+            =image_tag "company.png"
+          %h3.sub-title Companies
 
           %p Companies can share their data securely and anonymously, or can become sponsors of the project.
 
         .col-8
-          %h3 Universities
+          .image-wrapper
+            =image_tag "university.png"
+          %h3.sub-title Universities
 
           %p Universities can contribute their anonymous loan data to the public domain.
 
         .col-8
-          %h3 Researchers
+          
+          .image-wrapper
+            =image_tag "stat_chart.png"
+          %h3.sub-title Researchers
 
           %p Researchers can publish their complete data sets for review and use by the community.
-
   .contact.home-stripe
     .content-row
-      %h2 Contact
+      %h2.content-heading.white-text TALK TO US
 
-      Email
+      .row
+        .col-8
+          .image-wrapper
+            =image_tag "email.png"
+          %h3.sub-title.white-text hello@openloans.org
 
-      Twitter
+        .col-8
+          
+          .image-wrapper
+            =image_tag "twitter.png"
+          %h3.sub-title.white-text @OSLP
+
+  .us.home-stripe
+    .content-row
+      %h2.content-heading WHO WE ARE
+
+      .row
+
+        We are a team of engineers and designers based (mostly) in New York City who believe:
+        
+        %ol
+          %li Financial data should be open and accessible to all.
+          %li College students deserve better tools to help them make one of the biggest financial decisions of their lives.
+          %li Great things happen when smart people have access to open data sets.
+       
+        .col-8
+          %ul 
+            %li=link_to 'Cam Pedersen', "https://twitter.com/campedersen"
+            %li=link_to 'Sidharth Shanker', "https://twitter.com/squidarth"
+        .col-8
+          %ul
+            %li=link_to 'Hayley Thornton-Kennedy', "#" 
+            %li=link_to 'Steve Ellis', "https://twitter.com/Hypersteve"
+
+        .col-8
+          %ul
+            %li=link_to 'Quinten Farmer', "https://twitter.com/quintendf"
+            %li=link_to 'Wylie Conlon', "https://twitter.com/wylieconlon"

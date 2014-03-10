@@ -1,3 +1,5 @@
+
+
 .home-stripe {
   padding: 20px;
   border-bottom: 1px solid #ddd;
@@ -10,7 +12,7 @@
 
 .hero h1 {
   text-align: center;
-  color: #66CDAA;
+  color: $primary_green;
   font-weight: normal;
   font-size: 4.5em;
   font-family: "Lato-Light", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -37,7 +39,7 @@
 }
 
 .hero p.header-links a {
-  color: #66CDAA;
+  color: $primary_green;
   font-weight: normal;
   font-family: "Lato-Bold", "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0 0 0 0;
@@ -52,12 +54,13 @@
 }
 
 .content-heading {
-  color: #666;
+  color: #444;
   font-size: 1.8em;
   font-weight: normal;
   font-family: "Lato-Bold", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  margin: 0 0 0 0;
+  margin: 0 0 40px 0;
 }
+
 
 
 .audience {
@@ -65,12 +68,34 @@
 }
 
 .sub-title {
-  color: #555;
-  font-family: "Lato-Bold", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #333;
+  font-size: 1.4em;
+  font-family: "Lato-Regular", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.image-wrapper {
+  height: 128px;
+}
+
+.white-text {
+  color: #fff;
 }
 
 .contributors {
 }
 
 .contact {
+  background: $primary_green;
+  color: #fff;
+}
+
+.us ul {
+  list-style-type: none; 
+}
+
+.us ul li a {
+  color: $primary_green;
+  font-weight: normal;
+  font-family: "Lato-Bold", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin: 0 0 0 0;
 }
