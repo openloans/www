@@ -3,7 +3,9 @@ development:
   database: open_loans_development
   pool: 5
   timeout: 5000
-
+  <% if ENV['POSTGRESQL_SOCKET'] %>
+  host: <%= ENV['POSTGRESQL_SOCKET'] %>
+  <% end %>
 test:
   adapter: postgresql
   database: open_loans_test
